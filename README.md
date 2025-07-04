@@ -19,7 +19,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [FrontEnd Mentor Solution](https://www.frontendmentor.io/solutions/responsive-music-app-order-summary-page-using-flex-box-yzgUS9xLY8)
 - Live Site URL: [Music Order Summary Page](https://order-summary-musicapp.netlify.app/)
 
 ## My process
