@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Red Hat Display", sans-serif;
+    background-color: hsl(225, 100%, 94%);
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+
+h1,
+h4 {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+p {
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+button {
+    font-family: inherit;
+}
+
+.bg-image {
+    background: url('/Starter/images/pattern-background-mobile.svg') center/cover no-repeat;
+    height: 400px;
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+}
+
+.container {
+    background-color: white;
+    margin: 1rem;
+    border-radius: 1rem;
+    box-shadow: hsla(224, 23%, 55%, 0.4) 0px 25px 50px -12px;
+}
+
+.container p{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container h1 {
+    margin: 1.25rem 0;
+}
+
+.hero-img {
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.pricing {
+    margin: 2rem auto;
+    padding: 0.625rem;
+    background-color: hsl(225, 100%, 98%);
+    width: 90%;
+    border-radius: 0.625rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+article {
+    display: flex;
+    align-items: center;
+}
+
+.plan {
+    margin-left: 1rem;
+}
+
+.btn {
+    border: none;
+    padding: 0.3125rem 0.625rem;
+    border-radius: 0.625rem;
+    font-weight: 900;
+    transition: all 200ms ease;
+}
+
+.btn-primary {
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    padding: 0.625rem;
+    box-shadow: hsl(245, 75%, 52%) 0px 16px 36px -16px;
+}
+
+.btn-secondary {
+    background: none;
+    color: hsl(224, 23%, 55%);
+    margin: 1rem 0;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    opacity: 0.9;
+}
+
+.btn-secondary:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 1rem auto;
+}
+
+@media (min-width : 768px) {
+    .bg-image {
+        background: url('/Starter/images/pattern-background-desktop.svg') center/cover no-repeat;
+    }
+
+    .container {
+        width: 400px;
+    }
+
+    .buttons {
+        margin-bottom: 0;
+    }
+}
